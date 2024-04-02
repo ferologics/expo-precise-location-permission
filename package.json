@@ -1,0 +1,41 @@
+{
+  "name": "expo-precise-location-permission",
+  "version": "0.1.0",
+  "description": "Expo native module used to check for precise location permission.",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "expo-precise-location-permission",
+    "PreciseLocationPermission"
+  ],
+  "repository": "https://github.com/ferologics/expo-precise-location-permission",
+  "bugs": {
+    "url": "https://github.com/ferologics/expo-precise-location-permission/issues"
+  },
+  "author": "ferologics <f.hetes@gmail.com> (https://github.com/ferologics)",
+  "license": "MIT",
+  "homepage": "https://github.com/ferologics/expo-precise-location-permission#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-native": "^0.70.6",
+    "expo-module-scripts": "^3.0.7",
+    "expo-modules-core": "^1.1.0"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
